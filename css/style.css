@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-B';
+    src: url('../fonts/Lato-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  	min-height: 1000px;
+  	padding-top: 20px;
+	text-align: center;
+	color: #1e1e1e;
+	font-family: 'Lato';
+	font-size: 14px;
+    background-color: #fff;
+}
+
+#intro-section {
+	background-image: url(../gfx/background-intro.jpg);
+    background-position: center;
+    height: 453px;
+    width: initial;
+    margin-top: -20px;
+}
