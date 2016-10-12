@@ -32,7 +32,7 @@ body {
 
 .navbar-nav {
 	float: none;
-    margin: 20px 0 0 -157px;
+    margin: 20px -110px 40px -157px;
     font-size: 24px;
     display: inline-block;
 }
@@ -50,7 +50,7 @@ body {
     background-position: center;
     width: 721px;
     height: 55px;
-    margin-left: 148px !important;
+    margin-left: 207px !important;
     margin-top: 50px;
 }
 
@@ -109,13 +109,59 @@ body {
 	padding-right: 13px;
 }
 
-
 #fotter-home {
-  background-image: url(../gfx/fotter-background.jpg);
-  background-position: center;
-  width: initial;
-  height: 232px;
-  margin-top: 70px;
-  bottom: 0;
-  left: 0;
+    background-image: url(../gfx/fotter-background.jpg);
+    background-position: center;
+    width: initial;
+    height: 232px;
+    margin-top: 90px;
+    bottom: 0;
+    left: 0;
+}
+
+#first-f-p-intro { 
+    left: 0;
+    bottom: 0%;
+    position: fixed;
+    margin-left: 200px;
+}
+
+#first-f-p { 
+    left: 0;
+    bottom: -66%;
+    position: absolute;
+}
+
+.col-sm-6 {
+    text-align: left;
+}
+
+#first-left-p {
+    margin-bottom: 30px;
+}
+
+#first-home-p {
+    font-size: 14px;
+    margin-top: 34px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+#second-home-p {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.profile-p {
+    font-size: 15px;
+    width: 33em;
+    word-wrap: break-word;   
+}
+
+.col-md-4 {
+    width: 56.333333%;
+    margin-bottom: 20px;
+    margin-right: -716px;
+    margin-left: 20px;
 }
