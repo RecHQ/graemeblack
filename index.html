@@ -26,10 +26,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="profile.html">PROFILE</a></li>
-            <li><a href="#">CLIENTS</a></li>
+            <li><a href="profile.html" id="menu-1">PROFILE</a></li>
+            <li><a href="colections.html" id="menu-2">CLIENTS</a></li>
             <li><a href="#">INSTAGRAM</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#" id="menu-4">CONTACT</a></li>
           </ul>
         </div>
       </div>
@@ -38,10 +38,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <img src="gfx/home-image-left.jpg" alt="home-image-left" id="home-image-left">
+          <img class="home-image-left" src="gfx/home-image-left.jpg">
+          <img class="home-image-left" src="gfx/home-image-left-2.jpg">
+          <img class="home-image-left" src="gfx/home-image-left-3.jpg">
         </div>
         <div class="col-sm-6">
-          <img src="gfx/home-image-right.jpg" alt="home-image-right" id="home-image-right">
+          <img class="home-image-right" src="gfx/home-image-right.jpg">
+          <img class="home-image-right" src="gfx/home-image-right-2.jpg">
+          <img class="home-image-right" src="gfx/home-image-right-3.jpg">
         </div>
       </div>
     </div>
@@ -63,6 +67,41 @@
         </div>
       </div>
     </div>
+
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("home-image-left");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("home-image-right");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 4000); // Change image every 4 seconds
+      }
+    </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
