@@ -26,6 +26,10 @@ body {
 	border: none;
 }
 
+#big-space-menu {
+    margin-bottom: 66px !important;
+}
+
 .navbar-default {
 	background-color: #fff;
 }
@@ -43,6 +47,10 @@ body {
 
 .nav>li>a {
 	padding: 10px 73px;
+}
+
+#brand-home {
+    margin-left: 211px !important;
 }
 
 .navbar-brand {
@@ -67,7 +75,7 @@ body {
 }
 
 #menu-index-4 {
-	margin-right: 75px;
+	margin-right: -12px;
 }
 
 #menu-1 {
