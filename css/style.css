@@ -190,20 +190,22 @@ body {
 	margin-bottom: 15px;
     width: 546px;
     height: 749px;
+    margin: 0 auto;
 }
 
 .home-image-right {
-	padding-right: 13px;
+	padding-right: 0px;
     display: none;
     width: 546px;
     height: 749px;
+    margin: 0 auto;
 }
 
 #fotter-home {
     background-image: url(../gfx/fotter-background.jpg);
     background-position: center;
     width: initial;
-    height: 232px;
+    height: 100%;
     margin-top: 106px;
     bottom: 0;
     left: 0;
@@ -244,6 +246,7 @@ body {
     text-align: left;
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 15px;
 }
 
 .col-md-4 {
@@ -261,7 +264,7 @@ body {
 
 #first-home-p {
     font-size: 14px;
-    margin-top: 34px;
+    margin-top: 89px;
     letter-spacing: 1.5px;
     text-align: left;
 }
@@ -278,7 +281,7 @@ body {
     word-wrap: break-word;   
 }
 
-@media (max-width: 546px) {
+@media (max-width: 400px) {
 
 	.home-image-left {
 	    display: none;
@@ -876,6 +879,7 @@ body {
 	    background-position: center;
 	    height: 54px;
 	    width: 687px;
+        zoom: 126%;
 	}
 
 	#first-intro-p {
