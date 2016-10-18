@@ -58,6 +58,27 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: #1e1e1e;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #1e1e1e;
+    background-color: transparent;    
+}
+
+.dropdown-subpages {
+    padding: 0 0 6px;
+}
+
+.dropdown-subpages:hover {
+    color: #505050;
+}
+
+.dropdown-menu {
+    left: 11%;
+    text-align: center !important;
+    padding: 5px 10px 0px 10px;
+    border-top: none;    
 }
 
 .nav>li>a {
@@ -283,6 +304,10 @@ body {
     word-wrap: break-word;   
 }
 
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 @media (min-width: 427px) {
 
 	.home-image-left {
@@ -327,9 +352,30 @@ body {
 	    display: inline-block;
 	}
 
-	.navbar-default .navbar-nav>li>a {
-	    color: #1e1e1e;
-	}
+    .navbar-default .navbar-nav>li>a {
+        color: #1e1e1e;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #1e1e1e;
+        background-color: transparent;    
+    }
+
+    .dropdown-subpages {
+        padding: 0 0 6px;
+    }
+
+    .dropdown-subpages:hover {
+        color: #505050;
+    }
+
+    .dropdown-menu {
+        left: 11%;
+        text-align: center !important;
+        padding: 5px 10px 0px 10px;
+        border-top: none;    
+    }
 
 	.nav>li>a {
 		padding: 10px 73px;
@@ -360,7 +406,7 @@ body {
 	}
 
 	#menu-index-3 {
-		
+	    margin-left: -70px;
 	}
 
 	#menu-index-4 {
@@ -569,9 +615,30 @@ body {
 	    display: inline-block;
 	}
 
-	.navbar-default .navbar-nav>li>a {
-	    color: #1e1e1e;
-	}
+    .navbar-default .navbar-nav>li>a {
+        color: #1e1e1e;
+        background-color: transparent;
+    }
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #1e1e1e;
+        background-color: transparent;    
+    }
+
+    .dropdown-subpages {
+        padding: 0 0 6px;
+    }
+
+    .dropdown-subpages:hover {
+        color: #505050;
+    }
+
+    .dropdown-menu {
+        left: 11%;
+        text-align: center !important;
+        padding: 5px 10px 0px 10px;
+        border-top: none;    
+    }
 
 	.nav>li>a {
 		padding: 10px 73px;
@@ -807,7 +874,28 @@ body {
 
 	.navbar-default .navbar-nav>li>a {
 	    color: #1e1e1e;
+        background-color: transparent;
 	}
+
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        color: #1e1e1e;
+        background-color: transparent;    
+    }
+
+    .dropdown-subpages {
+        padding: 0 0 6px;
+    }
+
+    .dropdown-subpages:hover {
+        color: #505050;
+    }
+
+    .dropdown-menu {
+        left: 11%;
+        text-align: center !important;
+        padding: 5px 10px 0px 10px;
+        border-top: none;    
+    }
 
 	.nav>li>a {
 		padding: 10px 73px;
