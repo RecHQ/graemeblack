@@ -162,6 +162,7 @@ body {
 	background-image: url(../gfx/background-intro.jpg);
     background-position: center;
     height: 929px;
+	opacity: 0.2;
     width: initial;
 }
 
@@ -188,16 +189,16 @@ body {
     display: none;
 	padding-left: 0px;
 	margin-bottom: 15px;
-    width: 546px;
-    height: 749px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 
 .home-image-right {
 	padding-right: 0px;
     display: none;
-    width: 546px;
-    height: 749px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -264,7 +265,7 @@ body {
 
 #first-home-p {
     font-size: 14px;
-    margin-top: 89px;
+    margin-top: 30px;
     letter-spacing: 1.5px;
     text-align: left;
 }
@@ -272,7 +273,8 @@ body {
 #second-home-p {
     font-size: 14px;
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .profile-p {
@@ -281,12 +283,12 @@ body {
     word-wrap: break-word;   
 }
 
-@media (max-width: 400px) {
+@media (min-width: 427px) {
 
 	.home-image-left {
 	    display: none;
-	    width: 100%;
-	    height: 100%;
+	    width: 400px;
+	    height: 549px;
 	    clear: both;
 	    background-size: contain;
 	    background-position: center;
@@ -295,8 +297,8 @@ body {
 	.home-image-right {
 		padding-right: 0px;
 	    display: none;
-	    width: 100%;
-	    height: 100%;
+	    width: 400px;
+	    height: 549px;
 	    clear: both;
 	    background-size: contain;
 	    background-position: center;
@@ -320,7 +322,7 @@ body {
 
 	.navbar-nav {
 		float: none;
-	    margin: 20px -110px -12px -157px;
+	    margin: 20px -130px -24px 16px;
 	    font-size: 24px;
 	    display: inline-block;
 	}
@@ -334,7 +336,7 @@ body {
 	}
 
 	#brand-home {
-	    margin-left: 211px !important;
+	    margin-left: -17px !important;
 	}
 
 	.navbar-brand {
@@ -347,11 +349,14 @@ body {
 	}
 
 	#menu-index-1 {
-	    margin-right: 2px;
+	    margin-left: -224px;
+    	margin-right: -122px;
+	    margin-bottom: 15px;
 	}
 
 	#menu-index-2 {
-		margin-right: 0px;
+		margin-right: -95px;
+	    margin-bottom: 20px;
 	}
 
 	#menu-index-3 {
@@ -359,7 +364,8 @@ body {
 	}
 
 	#menu-index-4 {
-		margin-right: -12px;
+	    margin-right: -33px;
+    	margin-left: -74px;
 	}
 
 	#menu-1 {
@@ -450,23 +456,23 @@ body {
 
 	.home-image-left {
 	    display: none;
-		padding-left: 20px;
-	    width: 546px;
-	    height: 749px;
+		padding-left: 0px;
+	    width: 100%;
+	    height: 100%;
 	}
 
 	.home-image-right {
-		padding-right: 13px;
+		padding-right: 0px;
 	    display: none;
-	    width: 546px;
-	    height: 749px;
+	    width: 100%;
+	    height: 100%;
 	}
 
 	#fotter-home {
 	    background-image: url(../gfx/fotter-background.jpg);
 	    background-position: center;
 	    width: initial;
-	    height: 232px;
+	    height: 305px;
 	    margin-top: 106px;
 	    bottom: 0;
 	    left: 0;
@@ -482,7 +488,8 @@ body {
 
 	#first-f-p { 
 	    left: 0;
-	    bottom: -61%;
+	    bottom: 0;
+	    top: 50px;
 	    position: absolute;
 	    font-size: 12px;
 	}
@@ -557,7 +564,7 @@ body {
 
 	.navbar-nav {
 		float: none;
-	    margin: 20px -110px -12px -157px;
+	    margin: 20px -110px -12px 86px;
 	    font-size: 24px;
 	    display: inline-block;
 	}
@@ -571,7 +578,7 @@ body {
 	}
 
 	#brand-home {
-	    margin-left: 211px !important;
+	    margin-left: -15px !important;
 	}
 
 	.navbar-brand {
@@ -579,16 +586,16 @@ body {
 	    background-position: center;
 	    width: 721px;
 	    height: 55px;
-	    margin-left: 163px !important;
+	    margin-left: -163px !important;
 	    margin-top: 50px;
 	}
 
 	#menu-index-1 {
-	    margin-right: 2px;
+	    margin-right: -60px;
 	}
 
 	#menu-index-2 {
-		margin-right: 0px;
+		margin-right: -60px;
 	}
 
 	#menu-index-3 {
@@ -687,23 +694,23 @@ body {
 
 	.home-image-left {
 	    display: none;
-		padding-left: 20px;
-	    width: 546px;
-	    height: 749px;
+		padding-left: 0px;
+	    width: 100%;
+	    height: 100%;
 	}
 
 	.home-image-right {
-		padding-right: 13px;
+		padding-right: 0px;
 	    display: none;
-	    width: 546px;
-	    height: 749px;
+	    width: 100%;
+	    height: 100%;
 	}
 
 	#fotter-home {
 	    background-image: url(../gfx/fotter-background.jpg);
 	    background-position: center;
 	    width: initial;
-	    height: 232px;
+	    height: 285px;
 	    margin-top: 106px;
 	    bottom: 0;
 	    left: 0;
@@ -793,7 +800,7 @@ body {
 
 	.navbar-nav {
 		float: none;
-	    margin: 20px -110px -12px -157px;
+	    margin: 20px -110px -12px 131px;
 	    font-size: 24px;
 	    display: inline-block;
 	}
@@ -807,7 +814,7 @@ body {
 	}
 
 	#brand-home {
-	    margin-left: 211px !important;
+	    margin-left: -20px !important;
 	}
 
 	.navbar-brand {
@@ -824,7 +831,7 @@ body {
 	}
 
 	#menu-index-2 {
-		margin-right: 0px;
+		margin-right: -10px;
 	}
 
 	#menu-index-3 {
@@ -849,14 +856,15 @@ body {
 
 	#second-nav {
 	    font-size: 18px;
+		margin-left: -237px;
 	}
 
 	#submenu-2 {
-	    margin-left: -4px;
+	    margin-left: -40px;
 	}
 
 	#submenu-3 {
-	    margin-left: -5px;
+	    margin-left: -60px;
 	    margin-right: 12px;  
 	}
 
@@ -866,8 +874,8 @@ body {
 	}
 
 	#submenu-5 {
-	    margin-left: -33px;
-	    margin-right: 24px;    
+	    margin-left: -60px;
+	    margin-right: 0px;    
 	}
 
 	.colections-a-nav {
@@ -877,8 +885,8 @@ body {
 	#logo-intro {
 	    background-image: url(../gfx/logo-intro.jpg);
 	    background-position: center;
-	    height: 54px;
-	    width: 687px;
+	    height: 49px;
+	    width: 640px;
         zoom: 126%;
 	}
 
@@ -900,6 +908,7 @@ body {
 		background-image: url(../gfx/background-intro.jpg);
 	    background-position: center;
 	    height: 929px;
+	    opacity: 0.2;
 	    width: initial;
 	}
 
@@ -940,7 +949,7 @@ body {
 	    background-image: url(../gfx/fotter-background.jpg);
 	    background-position: center;
 	    width: initial;
-	    height: 232px;
+	    height: 285px;
 	    margin-top: 106px;
 	    bottom: 0;
 	    left: 0;
