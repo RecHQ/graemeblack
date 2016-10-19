@@ -913,7 +913,7 @@ body {
 
     .dropdown-subpages-3 {
         padding: 0 0 6px;
-        min-width: 82px;
+        min-width: 113px;
     	display: table-cell;
     }
 
@@ -952,9 +952,10 @@ body {
     }
 
     .dropdown-menu {
+        font-size: 18px;
 	    box-shadow: none;
     	border: none;
-        left: -52%;
+        left: -64%;
 	    text-align: center !important;
 	    padding: 15px 10px 0px 10px;
 	    border-top: none;  
@@ -1148,7 +1149,7 @@ body {
 	}
 
 	#left-profile-column {
-		margin-left: -15px;
+		margin-left: -20px;
 	}
 
 	.col-sm-6 {
@@ -1186,4 +1187,40 @@ body {
 	    width: 33em;
 	    word-wrap: break-word;   
 	}
+
+    .form-control {
+        width: 325px;
+    }
+
+    .required-span {
+        color:red;
+        margin-left: 4px;
+    }
+
+    .btn-default {
+        color: #fff;
+        background-color: #f05340;
+        border: none;
+        padding: 6px 20px;
+    }
+
+    .btn-default:hover {
+        color: #fff;
+        background-color: #f05340;
+        border: none;
+    }
+
+    .btn-default:focus {
+        color: #fff;
+        background-color: #f05340;
+        border: none;
+    }
+
+    #textarea-form {
+        width: 470px;
+    }
+
+    #contact-image {
+        margin-left: 54px;
+    }
 }
