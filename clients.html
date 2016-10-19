@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Colections</title>
+    <title>Clients</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
@@ -13,7 +13,8 @@
 
   <body>
 
-    <nav class="navbar navbar-default navbar-static-top">
+    
+    <nav class="navbar navbar-default navbar-static-top" id="client-space-menu">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,27 +23,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" id="brand-home"></a>
+          <a class="navbar-brand" href="index.html" id="brand-profile"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="profile.html" id="menu-1">PROFILE</a></li>
+          <ul class="nav navbar-nav" id="first-nav">
+            <li><a href="profile.html" id="menu-index-1">PROFILE</a></li>
             <li class="dropdown">
-              <a href="colections.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLIENTS</a>
-              <ul class="dropdown-menu">
-                <li class="colections-a-nav">1436</li>
-                <li class="colections-a-nav" id="submenu-3">DESA</li>
-                <li class="colections-a-nav" id="submenu-5">HUGO BOSS</li>
-                <li class="colections-a-nav" id="submenu-4">GRAEME BLACK</li>
-                <li class="colections-a-nav" id="submenu-2">SALVATORE FERRAGAMO</li>
-                <li class="colections-a-nav" id="submenu-2">GIORGIO ARMANI</li>
-              </ul>
+              <a href="clients.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLIENTS</a>
             </li>
-            <li><a href="#">INSTAGRAM</a></li>
-            <li><a href="contact.html" id="menu-4">CONTACT</a></li>
+            <li><a href="#" id="menu-index-3">INSTAGRAM</a></li>
+            <li><a href="contact.html" id="menu-index-4">CONTACT</a></li>
           </ul>
           <ul class="nav navbar-nav" id="second-nav">
-            <li><a href="#" class="colections-a-nav">1436</a></li>
+            <li><a href="#" class="colections-a-nav" id="submenu-1">1436</a></li>
             <li><a href="#" class="colections-a-nav" id="submenu-4">DESA</a></li>
             <li><a href="#" class="colections-a-nav" id="submenu-3">HUGO BOSS</a></li>
             <li><a href="#" class="colections-a-nav" id="submenu-5">GRAEME BLACK</a></li>
@@ -94,19 +87,23 @@
     </div>
 
     <div id="fotter-home">
-      <div class="container" id="fotter-container">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6" id="col-left-fotter">
+          <div class="col-sm-6">
             <p id="first-left-p">CONTACT</p>
-            <p class="fotter-info">+44 (0)20 7565 1150</p>
-            <p class="fotter-info">INFO@GAREMEBLACK.COM</p>
-            <p class="fotter-info">FOLLOW US @GRAEMEBLACK72</p>
-            <p id="first-f-p">© 2016 GRAEME BLACK ALL RIGHTS RESERVED &nbsp; THIS SITE USES COOKIES &nbsp; <span id="span-fotter">OK</span></p>
+            <p>+44 (0)20 7565 1150</p>
+            <p>info@graemeblack.com</p>
+            <p>Follow us @GraemeBlack72</p>
           </div>
-          <div class="col-sm-6" id="col-right-fotter">
+          <div class="col-sm-6">
             <p id="first-home-p">NO ONE UNDERSTANDS CASHMERE LIKE GRAEME BLACK. HE UNDERSTANDS THE IN TERNATIONAL BUSINESS FROM GOAT TO COAT. HE REALLY IS BEYOND COMPARE…</p>
             <p id="second-home-p">MARION HUME</p>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p id="first-f-p">© 2016 GRAEME BLACK ALL RIGHTS RESERVED &nbsp; THIS SITE USES COOKIES &nbsp; <span id="span-fotter">OK</span></p>   
+          </div>       
         </div>
       </div>
     </div>

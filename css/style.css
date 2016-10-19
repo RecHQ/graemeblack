@@ -861,13 +861,21 @@ body {
 	    margin-bottom: 66px !important;
 	}
 
+	#client-space-menu {
+		margin-bottom: 30px !important;
+	}
+
 	.navbar-default {
 		background-color: #fff;
 	}
 
+	#first-nav {
+		margin-bottom: -28px;
+	}
+
 	.navbar-nav {
 		float: none;
-	    margin: 20px -110px -12px 131px;
+	    margin: 20px -150px -12px 34px;
 	    font-size: 24px;
 	    display: inline-block;
 	}
@@ -875,6 +883,7 @@ body {
 	.navbar-default .navbar-nav>li>a {
 	    color: #1e1e1e;
         background-color: transparent;
+    	margin-right: 68px;
 	}
 
     .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
@@ -882,19 +891,73 @@ body {
         background-color: transparent;    
     }
 
-    .dropdown-subpages {
+    .dropdown-subpages-1 {
         padding: 0 0 6px;
+        min-width: 11px;
+    	display: table-cell;
     }
 
-    .dropdown-subpages:hover {
+    .dropdown-subpages-1:hover {
+        color: #505050;
+    }
+
+    .dropdown-subpages-2 {
+        padding: 0 0 6px;
+        min-width: 123px;
+    	display: table-cell;
+    }
+
+    .dropdown-subpages-3:hover {
+        color: #505050;
+    }
+
+    .dropdown-subpages-3 {
+        padding: 0 0 6px;
+        min-width: 82px;
+    	display: table-cell;
+    }
+
+    .dropdown-subpages-3:hover {
+        color: #505050;
+    }
+
+    .dropdown-subpages-4 {
+        padding: 0 0 6px;
+    	display: table-cell;
+        min-width: 200px;
+    }
+
+    .dropdown-subpages-4:hover {
+        color: #505050;
+    }
+
+    .dropdown-subpages-5 {
+        padding: 0 0 6px;
+        display: table-cell;
+        min-width: 230px;
+    }
+
+    .dropdown-subpages-5:hover {
+        color: #505050;
+    }
+
+    .dropdown-subpages-6 {
+        padding: 0 0 6px;
+        display: table-cell;
+    	min-width: 199px;
+    }
+
+    .dropdown-subpages-6:hover {
         color: #505050;
     }
 
     .dropdown-menu {
-        left: 11%;
-        text-align: center !important;
-        padding: 5px 10px 0px 10px;
-        border-top: none;    
+	    box-shadow: none;
+    	border: none;
+        left: -52%;
+	    text-align: center !important;
+	    padding: 15px 10px 0px 10px;
+	    border-top: none;  
     }
 
 	.nav>li>a {
@@ -902,7 +965,15 @@ body {
 	}
 
 	#brand-home {
-	    margin-left: -20px !important;
+	    margin-left: -30px !important;
+	}
+
+	#brand-profile {
+	    margin-left: 179px !important;
+	}
+
+	#brand-contact {
+	    margin-left: 176px !important;
 	}
 
 	.navbar-brand {
@@ -915,19 +986,17 @@ body {
 	}
 
 	#menu-index-1 {
-	    margin-right: 2px;
-	}
-
-	#menu-index-2 {
-		margin-right: -10px;
+	    margin-right: 0px;
+	    margin-left: -276px;
 	}
 
 	#menu-index-3 {
-		
+	    margin-right: 83px;	
 	}
 
 	#menu-index-4 {
-		margin-right: -12px;
+	    margin-right: -6px;
+	    margin-left: -86px;
 	}
 
 	#menu-1 {
@@ -944,11 +1013,15 @@ body {
 
 	#second-nav {
 	    font-size: 18px;
-		margin-left: -237px;
+		margin-left: -116px;
+	}
+
+	#submenu-1 {
+		margin-right: -10px;
 	}
 
 	#submenu-2 {
-	    margin-left: -40px;
+	    margin-left: -81px;
 	}
 
 	#submenu-3 {
@@ -962,8 +1035,8 @@ body {
 	}
 
 	#submenu-5 {
-	    margin-left: -60px;
-	    margin-right: 0px;    
+	    margin-left: -35px;
+    	margin-right: 47px;  
 	}
 
 	.colections-a-nav {
@@ -1021,15 +1094,15 @@ body {
 
 	.home-image-left {
 	    display: none;
-		padding-left: 20px;
-	    width: 546px;
+		padding-left: 14px;
+	    width: 558px;
 	    height: 749px;
 	}
 
 	.home-image-right {
-		padding-right: 13px;
+		padding-right: 23px;
 	    display: none;
-	    width: 546px;
+	    width: 570px;
 	    height: 749px;
 	}
 
@@ -1072,6 +1145,10 @@ body {
 
 	.fotter-info {
 	    margin-bottom: 4px;
+	}
+
+	#left-profile-column {
+		margin-left: -15px;
 	}
 
 	.col-sm-6 {
