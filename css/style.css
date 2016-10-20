@@ -1167,10 +1167,10 @@ body {
 	}
 
 	.col-md-4 {
-	    width: 56.333333%;
-	    margin-bottom: 16px;
-	    margin-right: -685px;
-	    margin-left: -1px;
+	    margin-left: 3.7%;
+	    float: left;
+	    width: 25.8%;
+	    margin-right: -0.2%;
 	}
 
 	#first-left-p {
@@ -1235,10 +1235,18 @@ body {
     }
 
     #image-second-row {
-    	padding-right: 195px;
+    	margin-left: -67px;
     }
 
     #video-col {
-    	width: 79.666667%;
+    	width: 70.666667%;
+    }
+
+    .row {
+	    width: 100%;
+	    max-width: 1280px;
+	    min-width: 320px;
+	    margin: 0 auto;
+	    clear: both;
     }
 }
