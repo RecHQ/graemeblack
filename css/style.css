@@ -893,7 +893,7 @@ body {
 
     .dropdown-subpages-1 {
         padding: 0 0 6px;
-        min-width: 11px;
+        min-width: 69px;
     	display: table-cell;
     }
 
@@ -903,7 +903,7 @@ body {
 
     .dropdown-subpages-2 {
         padding: 0 0 6px;
-        min-width: 123px;
+        min-width: 134px;
     	display: table-cell;
     }
 
@@ -913,7 +913,7 @@ body {
 
     .dropdown-subpages-3 {
         padding: 0 0 6px;
-        min-width: 113px;
+        min-width: 122px;
     	display: table-cell;
     }
 
@@ -924,7 +924,7 @@ body {
     .dropdown-subpages-4 {
         padding: 0 0 6px;
     	display: table-cell;
-        min-width: 200px;
+        min-width: 223px;
     }
 
     .dropdown-subpages-4:hover {
@@ -934,7 +934,7 @@ body {
     .dropdown-subpages-5 {
         padding: 0 0 6px;
         display: table-cell;
-        min-width: 230px;
+        min-width: 280px;
     }
 
     .dropdown-subpages-5:hover {
@@ -944,7 +944,7 @@ body {
     .dropdown-subpages-6 {
         padding: 0 0 6px;
         display: table-cell;
-    	min-width: 199px;
+    	min-width: 260px;
     }
 
     .dropdown-subpages-6:hover {
@@ -955,7 +955,7 @@ body {
         font-size: 18px;
 	    box-shadow: none;
     	border: none;
-        left: -64%;
+        left: -85%;
 	    text-align: center !important;
 	    padding: 15px 10px 0px 10px;
 	    border-top: none;  
@@ -1222,5 +1222,13 @@ body {
 
     #contact-image {
         margin-left: 54px;
+    }
+
+    #image-second-row {
+    	padding-right: 195px;
+    }
+
+    #video-col {
+    	width: 79.666667%;
     }
 }
