@@ -1001,14 +1001,35 @@ body {
 	    margin-left: -276px;
 	}
 
+    #menu-index-active {
+        margin-right: 0px;
+        margin-left: -276px;
+        color: #cac9e8;
+    }
+
+    #menu-client-active {
+        color: #cac9e8;        
+    }
+
 	#menu-index-3 {
 	    margin-right: 83px;	
 	}
+
+    #menu-insta-active {
+        margin-right: 83px;
+        color: #cac9e8;
+    }
 
 	#menu-index-4 {
 	    margin-right: -6px;
 	    margin-left: -86px;
 	}
+
+    #menu-contact-active {
+        margin-right: -6px;
+        margin-left: -86px;
+        color: #cac9e8;
+    }
 
 	#menu-1 {
 	    margin-right: 2px;
