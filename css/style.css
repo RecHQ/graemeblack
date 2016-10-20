@@ -1031,6 +1031,11 @@ body {
 		margin-right: -10px;
 	}
 
+	#submenu-1436 {
+		margin-right: -10px;
+        color: #505050;
+	}
+
 	#submenu-2 {
 	    margin-left: -81px;
 	}
@@ -1195,7 +1200,8 @@ body {
 	.profile-p {
 	    font-size: 15px;
 	    width: 33em;
-	    word-wrap: break-word;   
+	    word-wrap: break-word;
+	    margin-bottom: 16px;
 	}
 
     .form-control {
@@ -1248,5 +1254,9 @@ body {
 	    min-width: 320px;
 	    margin: 0 auto;
 	    clear: both;
+    }
+
+    .form-group {
+    	margin-bottom: 26px;
     }
 }
