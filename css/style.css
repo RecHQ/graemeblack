@@ -970,11 +970,21 @@ body {
 	}
 
 	#brand-profile {
-	    margin-left: 179px !important;
+	    margin-left: 130px !important;
+	    transform: translate(-50%, -14%);
+	    top: 50%;
+	    left: 50%;
+	    position: relative;
+	    margin-top: 50px;
 	}
 
 	#brand-contact {
-	    margin-left: 176px !important;
+	    margin-left: 130px !important;
+	    transform: translate(-50%, -14%);
+	    top: 50%;
+	    left: 50%;
+	    position: relative;
+	    margin-top: 50px;
 	}
 
 	.navbar-brand {
