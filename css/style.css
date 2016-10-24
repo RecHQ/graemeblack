@@ -709,7 +709,7 @@ body {
 	}
 
 	.colections-a-nav {
-	    padding: 10px 45px !important;
+	    padding: 10px 33px !important;
 	}
 
 	#logo-intro {
@@ -990,8 +990,8 @@ body {
 	.navbar-brand {
 	    background-image: url(../gfx/logo-intro-white.jpg);
 	    background-position: center;
-	    width: 721px;
-	    height: 55px;
+	    width: 673px;
+    	height: 51px;
 	    margin-left: 163px !important;
 	    margin-top: 50px;
 	}
@@ -1045,46 +1045,43 @@ body {
 
 	#second-nav {
 	    font-size: 18px;
-		margin-left: -116px;
+		margin-left: -199px;
 	}
 
 	#submenu-1 {
-		margin-right: -10px;
+		margin: 0px;
 	}
 
 	#submenu-1436 {
-		margin-right: -10px;
+		margin: 0px;
         color: #cac9e8;
 	}
 
 	#submenu-2 {
-	    margin-left: -81px;
+		margin: 0px;
 	}
 
 	#submenu-3 {
-	    margin-left: -60px;
-	    margin-right: 12px;  
+		margin: 0px;
 	}
 
 	#submenu-4 {
-	    margin-left: -20px;
-	    margin-right: 20px;   
+		margin: 0px; 
 	}
 
 	#submenu-5 {
-	    margin-left: -35px;
-    	margin-right: 47px;  
+		margin: 0px;
 	}
 
 	.colections-a-nav {
-	    padding: 10px 45px !important;
+	    padding: 10px 33px !important;
 	}
 
 	#logo-intro {
-	    background-image: url(../gfx/logo-intro.jpg);
+	    background-image: url(../gfx/logo-intro.png);
 	    background-position: center;
-	    height: 49px;
-	    width: 640px;
+	    height: 58px;
+    	width: 769px;
         zoom: 126%;
 	}
 
