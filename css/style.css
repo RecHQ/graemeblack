@@ -995,10 +995,10 @@ body {
 	}
 
 	.navbar-brand {
-	    background-image: url(../gfx/logo-intro-white.jpg);
+	    background-image: url(../gfx/logo-intro-white.png);
 	    background-position: center;
-	    width: 673px;
-    	height: 51px;
+	    width: 572px;
+        height: 44px;
 	    margin-left: 163px !important;
 	    margin-top: 50px;
 	}
