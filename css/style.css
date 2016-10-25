@@ -1294,5 +1294,6 @@ body {
     .mySlides {
         margin-top: 34px;
         margin-bottom: 125px;
+        text-transform: uppercase;
     }
 }

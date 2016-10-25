@@ -96,8 +96,11 @@
             <p>Follow us @GraemeBlack72</p>
           </div>
           <div class="col-sm-6">
-            <p id="first-home-p">NO ONE UNDERSTANDS CASHMERE LIKE GRAEME BLACK. HE UNDERSTANDS THE INTERNATIONAL BUSINESS FROM GOAT TO COAT. HE REALLY IS BEYOND COMPARE…</p>
-            <p id="second-home-p">MARION HUME</p>
+              <p class="mySlides">Being a fashion nomad is in my blood. I've never not been that person. Travel fuels my creativity.</p>
+              <p class="mySlides">Graeme's clothes don't just work on the runway - he is brilliant at dressing real women with real bodies. It's all about a very modern, easy glamour.</p>
+              <p class="mySlides">The joy is in the hidden luxe. Putting emphasis on the craft and quality are key. &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; </p>
+              <p class="mySlides">... yet there’s another element; he strives for elegance. What woman making the investment of an heirloom cashmere piece could ask for more?</p>
+              <p class="mySlides">No one understands cashmere like Graeme Black. He understands the international business from goat to coat. He really is beyond compare…</p>
           </div>
         </div>
         <div class="row">
@@ -108,6 +111,23 @@
       </div>
     </div>
     
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
