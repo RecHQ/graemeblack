@@ -186,14 +186,6 @@ body {
     margin-top: 40px;
 }
 
-#background-image {
-	background-image: url(../gfx/background-intro.jpg);
-    background-position: center;
-    height: 929px;
-	opacity: 0.2;
-    width: initial;
-}
-
 #intro-section{
     position: absolute;
     top: 50%;
@@ -231,7 +223,7 @@ body {
 }
 
 #fotter-home {
-    background-image: url(../gfx/fotter-background.jpg);
+        background-color: #c1c1c1;
     background-position: center;
     width: initial;
     height: 100%;
@@ -481,13 +473,6 @@ body {
 	    margin-top: 40px;
 	}
 
-	#background-image {
-		background-image: url(../gfx/background-intro.jpg);
-	    background-position: center;
-	    height: 929px;
-	    width: initial;
-	}
-
 	#intro-section{
 	    position: absolute;
 	    top: 50%;
@@ -522,7 +507,7 @@ body {
 	}
 
 	#fotter-home {
-	    background-image: url(../gfx/fotter-background.jpg);
+        background-color: #c1c1c1;
 	    background-position: center;
 	    width: initial;
 	    height: 305px;
@@ -740,13 +725,6 @@ body {
 	    margin-top: 40px;
 	}
 
-	#background-image {
-		background-image: url(../gfx/background-intro.jpg);
-	    background-position: center;
-	    height: 929px;
-	    width: initial;
-	}
-
 	#intro-section{
 	    position: absolute;
 	    top: 50%;
@@ -781,7 +759,7 @@ body {
 	}
 
 	#fotter-home {
-	    background-image: url(../gfx/fotter-background.jpg);
+	    background-color: #c1c1c1;
 	    background-position: center;
 	    width: initial;
 	    height: 285px;
@@ -1011,11 +989,11 @@ body {
     #menu-index-active {
         margin-right: 0px;
         margin-left: -276px;
-        color: #cac9e8;
+        color: #c1c1c1;
     }
 
     #menu-client-active {
-        color: #cac9e8;        
+        color: #c1c1c1;        
     }
 
 	#menu-index-3 {
@@ -1024,7 +1002,7 @@ body {
 
     #menu-insta-active {
         margin-right: 83px;
-        color: #cac9e8;
+        color: #c1c1c1;
     }
 
 	#menu-index-4 {
@@ -1035,7 +1013,7 @@ body {
     #menu-contact-active {
         margin-right: -6px;
         margin-left: -86px;
-        color: #cac9e8;
+        color: #c1c1c1;
     }
 
 	#menu-1 {
@@ -1061,7 +1039,7 @@ body {
 
 	#submenu-1436 {
 		margin: 0px;
-        color: #cac9e8;
+        color: #c1c1c1;
 	}
 
 	#submenu-2 {
@@ -1107,14 +1085,6 @@ body {
 	    margin-top: 40px;
 	}
 
-	#background-image {
-		background-image: url(../gfx/background-intro.jpg);
-	    background-position: center;
-	    height: 929px;
-	    opacity: 0.2;
-	    width: initial;
-	}
-
 	#intro-section{
 	    position: absolute;
 	    top: 50%;
@@ -1149,7 +1119,7 @@ body {
 	}
 
 	#fotter-home {
-	    background-image: url(../gfx/fotter-background.jpg);
+        background-color: #c1c1c1;
 	    background-position: center;
 	    width: initial;
 	    height: 285px;
