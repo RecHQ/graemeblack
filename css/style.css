@@ -1196,7 +1196,7 @@ body {
 	    font-size: 15px;
 	    width: 33em;
 	    word-wrap: break-word;
-	    margin-bottom: 34px;
+	    margin-bottom: 50px;
 	}
 
     .form-control {
@@ -1255,7 +1255,7 @@ body {
     }
 
     .form-group {
-    	margin-bottom: 45px;
+    	margin-bottom: 67px;
     }
 
     #insta-image {
