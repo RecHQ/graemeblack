@@ -1211,17 +1211,20 @@ body {
     .btn-default {
         color: #fff;
         background-color: #f05340;
+        border: 1px solid #000 !important;
         border: none;
         padding: 6px 20px;
     }
 
     .btn-default:hover {
+        border: 1px solid #000 !important;
         color: #fff;
         background-color: #f05340;
         border: none;
     }
 
     .btn-default:focus {
+        border: 1px solid #000 !important;
         color: #fff;
         background-color: #f05340;
         border: none;
